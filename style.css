@@ -1,0 +1,43 @@
+html, body {
+   font-family: "Karla", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+
+   background-color:  hsl(148, 38%, 91%);
+}
+
+h2 {
+   padding: 20px;
+   color: hsl(180, 3%, 25%);
+}
+
+.container {
+   background-color:  hsl(0, 0%, 100%);
+
+   width: 700px;
+   height: 750px;
+
+   margin-right: auto;
+   margin-left: auto;
+
+   border-radius: 10px;
+}
+
+.card-forms {
+   width: 500px;
+   display: flex;
+   gap: 50px;
+   padding: 16px;
+}
+
+.card-forms01 {
+
+}
+
+.input-name {
+   width: 300px;
+   height: 35px;
+
+   border-radius: 5px;
+}
