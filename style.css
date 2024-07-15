@@ -8,15 +8,17 @@ html, body {
 }
 
 h2 {
-   padding: 20px;
    color: hsl(180, 3%, 25%);
+
+   padding: 25px;
+   margin-bottom: -12px;
 }
 
 .container {
    background-color:  hsl(0, 0%, 100%);
 
    width: 700px;
-   height: 750px;
+   height: 780px;
 
    margin-right: auto;
    margin-left: auto;
@@ -24,20 +26,100 @@ h2 {
    border-radius: 10px;
 }
 
-.card-forms {
-   width: 500px;
+.container-inputs {
    display: flex;
-   gap: 50px;
-   padding: 16px;
-}
-
-.card-forms01 {
-
+   justify-content: center;
+   gap: 70px;
+   padding: 20px 20px;
 }
 
 .input-name {
-   width: 300px;
-   height: 35px;
+   width: 280px;
+   height: 40px;
 
-   border-radius: 5px;
+  border-radius: 8px;
+  border: 1px solid hsl(169, 82%, 27%);
+  border-style: double;
+
+  cursor: pointer;
+}
+
+.input-lastname {
+   width: 280px;
+   height: 40px;
+
+   border-radius: 8px;
+   border: 1px solid hsl(169, 82%, 27%);
+   border-style: double;
+
+   cursor: pointer;
+}
+
+.input-email {
+   width: 650px;
+   height: 40px;
+
+   border-radius: 8px;
+   border: 1px solid hsl(169, 82%, 27%);
+   border-style: double;
+
+   cursor: pointer;
+}
+
+.container-email {
+   display: flex;
+   justify-content: center;
+}
+
+.input-message {
+   width: 620px;
+   height: 80px;
+
+   border-radius: 8px;
+   border: 1px solid hsl(169, 82%, 27%);
+   border-style: double;
+
+   margin-right: 20px;
+
+   cursor: pointer;
+}
+
+.container-message {
+   display: flex;
+   justify-content: center;
+}
+
+.checkbox-container {
+   display: flex;
+   align-items: center;
+   margin-left: 12px;
+}
+
+.checkbox-container input[type="checkbox"] {
+   margin-right: 15px;
+}
+
+.input-btn {
+   width: 620px;
+   height: 50px;
+
+   border: none;
+   border-radius: 8px;
+   background-color: hsl(169, 82%, 27%);
+   color: hsl(0, 0%, 100%);
+
+   font-size: 16px;
+   font-weight: 600;
+
+   cursor: pointer;
+   transition: all 0.8s ease-in;
+}
+
+.input-btn:hover {
+   background-color: hsl(170, 88%, 10%);
+}
+
+.container-button {
+   display: flex;
+   justify-content: center;
 }
