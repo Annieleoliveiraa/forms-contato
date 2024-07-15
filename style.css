@@ -18,7 +18,7 @@ h2 {
    background-color:  hsl(0, 0%, 100%);
 
    width: 700px;
-   height: 780px;
+   height: 900px;
 
    margin-right: auto;
    margin-left: auto;
@@ -56,7 +56,7 @@ h2 {
 }
 
 .input-email {
-   width: 650px;
+   width: 630px;
    height: 40px;
 
    border-radius: 8px;
@@ -66,9 +66,45 @@ h2 {
    cursor: pointer;
 }
 
+.text-email {
+   margin-left: 5px;
+}
+
 .container-email {
    display: flex;
    justify-content: center;
+}
+
+.container-radios {
+   display: flex;
+   align-items: center;
+  
+   gap: 30px;
+   margin-left: 30px;
+}
+
+.input-text01 {
+   width: 260px;
+   height: 40px;
+
+   border-radius: 8px;
+
+   border: 1px solid hsl(169, 82%, 27%);
+   border-style: double;
+
+   margin-top: 20px;
+}
+
+.input-text02 {
+   width: 280px;
+   height: 40px;
+
+   border-radius: 8px;
+
+   border: 1px solid hsl(169, 82%, 27%);
+   border-style: double;
+
+   margin-top: 34px;
 }
 
 .input-message {

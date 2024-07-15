@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  
+
   <title>Frontend Mentor | Contact form</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap" rel="stylesheet">
-
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
   <div class="container">
@@ -26,40 +22,48 @@
 
       <div class="container-inputs">
         <label for="iname">
-          First Name*
-         <p><input class="input-name" type="text" name="name" id="iname"></p>
+          <p>First Name*</p>
+          <p><input class="input-name" type="text" name="name" id="iname"></p>
         </label>
-  
+
         <label for="ilastname">
-          Last Name*
+          <p>Last Name*</p>
           <p><input class="input-lastname" type="text" name="lastname" id="ilastname"></p>
         </label>
       </div>
-      
+
 
       <div class="container-email">
         <label for="iemail">
-          Email Adress* 
+          <p class="text-email">Email Adress*</p>
+
           <p><input class="input-email" type="email" name="email" id="iemail"></p>
         </label>
       </div>
 
-      <label for="">
-        Query Type * 
-        <p><input type="text" name="" id=""></p>
-        <p><input type="radio" name="" id=""></p>
-      </label>
+
+      <div class="container-radios">
+        <label for="itext01">
+          <p> Query Type *</p>
+          <p>General Enquiry<input class="input-text01" type="text" name="" id="itext01"></p>
+          <p><input type="radio" name="" id="iradio01"></p>
+        </label>
+
+        <label for="itext02">
+          <p>Support Request<input class="input-text02" type="text" name="" id="itext02"></p>
+          <p><input type="radio" name="" id="iradio02"></p>
+        </label>
+      </div>
+
 
       <div class="container-message">
         <label for="imessage">
-          Message * 
+          <p> Message *</p>
           <p><input class="input-message" type="text" name="message" id="imessage"></p>
         </label>
       </div>
 
-     
 
-     
       <label class="checkbox-container">
         <p><input type="checkbox" name="checkbox" id="checkbox-example"></p>
         <p>I consent to being contacted by the team</p>
@@ -68,39 +72,35 @@
       <div class="container-button">
         <p><input class="input-btn" type="submit" value=" Submit"></p>
       </div>
-     
+
     </form>
-   
-   
+
+
     This field is required
-   
+
     This field is required
-      
-   
-    This field is required      
- 
-   
-    General Enquiry
-    Support Request
+
+
+    This field is required
+
+
+
+
     Please select a query type
-  
-   
+
+
     This field is required
-  
-   
+
+
     To submit this form, please consent to being contacted
-  
-   
-  
+
+
+
     Message Sent!
     Thanks for completing the form. We'll be in touch soon!
   </div>
 
- 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
 </body>
+
 </html>
